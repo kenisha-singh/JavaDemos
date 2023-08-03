@@ -1,0 +1,25 @@
+package com.lumen.newset;
+
+public class Bike extends Vehicle {
+
+	public Bike(String model, String brand, double price) {
+		super(model, brand, price);
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	void getMileage() {
+      System.out.println(model+" "+" has this mileage");
+	}
+
+	@Override
+	void showType() {
+       System.out.println(model+" "+" has this type ");
+	}
+	void engineType() {
+		System.out.println("electric");
+	}
+
+
+
+}
